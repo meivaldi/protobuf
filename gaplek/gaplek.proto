@@ -4,12 +4,12 @@ package gaplek;
 option go_package = "/;pb";
 
 message JitterRequest {
-    low uint64 = 1;
-    high uint64 = 2;
+    uint64 low = 1;
+    uint64 high = 2;
 }
 
 message JitterResponse {
-    jitter uint64 = 1;
+    uint64 jitter = 1;
 }
 
 service Jitter {

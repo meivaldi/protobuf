@@ -1,4 +1,4 @@
-module github.com/kitabisa/protobuf
+module github.com/meivaldi/protobuf
 
 go 1.19
 
